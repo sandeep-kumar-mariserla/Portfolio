@@ -1,9 +1,66 @@
-<html>
-    <head>
-        <title> sandeep kumar mariserla's portfolio </title>
-    </head>
-    <body>
-        <h1> sandeep kumar mariserla's portfolio </h1>
-        <p> welcome to portfolio! </p>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sandeep | Portfolio</title>
+  <link rel="stylesheet" href="sandeep.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <h2 class="logo">Sandeep</h2>
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="menu-toggle">☰</div>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <h1 class="gradient-text">Hi, I'm Sandeep</h1>
+  <p class="typing"></p>
+  <button onclick="scrollToSection('projects')">View Work</button>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <h2>About Me</h2>
+  <div class="card-container">
+    <div class="card">💻 Passionate Developer</div>
+    <div class="card">⚡ Fast Learner</div>
+    <div class="card">🎯 Problem Solver</div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+  <h2>Projects</h2>
+  <div class="projects-grid">
+
+    <div class="project-card">
+      <h3>Project 1</h3>
+      <p>Short description</p>
+    </div>
+
+    <div class="project-card">
+      <h3>Project 2</h3>
+      <p>Short description</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+  <h2>Contact</h2>
+  <p>Email: yourmail@gmail.com</p>
+</section>
+
+<script src="sandeep.js"></script>
+</body>
 </html>
